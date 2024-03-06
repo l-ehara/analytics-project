@@ -1,13 +1,15 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
         {
             "name": "Python: Streamlit",
-            "type": "debugpy",
+            "type": "python",
             "request": "launch",
-            "module": "streamlit",
+            "program": "${workspaceFolder}/App.py",
+            "console": "integratedTerminal",
             "args": ["run", "App.py"],
+            "justMyCode": true,
+            "python": "${workspaceFolder}/venv/bin/python"
         }
     ]
 }
