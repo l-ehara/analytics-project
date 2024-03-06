@@ -3,12 +3,10 @@
     "configurations": [
         {
             "name": "Python: Streamlit",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/App.py",
-            "console": "integratedTerminal",
             "args": ["run", "App.py"],
-            "justMyCode": true,
+            "module": "streamlit",
             "python": "${workspaceFolder}/venv/bin/python"
         }
     ]
