@@ -28,15 +28,7 @@ Ensure you have Python installed on your system. You can download Python [here](
 1. **Clone the repository**
 
    ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
    git clone https://github.com/l-ehara/analytics-project.git
-=======
-   git clone https://github.com/l-ehara/analytics-project.git
->>>>>>> 1195750 (Update README.md)
-=======
-   git clone https://github.com/l-ehara/analytics-project.git
->>>>>>> 690713a (Fix username on README file [fix] (#6))
    ```
 
 2. **Navigate to the project directory**
