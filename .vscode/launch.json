@@ -5,7 +5,7 @@
             "name": "Python: Streamlit",
             "type": "debugpy",
             "request": "launch",
-            "args": ["run", "App.py"],
+            "args": ["run", "MainPage.py"],
             "module": "streamlit",
             "python": "${workspaceFolder}/venv/bin/python"
         }
