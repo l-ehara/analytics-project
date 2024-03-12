@@ -10,10 +10,14 @@ Welcome to the Country Inflation Analytics project! This interactive tool levera
 - **Data-Driven**: Powered by Polars, enjoy fast and efficient data manipulation and analysis.
 
 ## Technologies
+## Technologies
 
-- **Python**: The core programming language used for data analysis and application logic.
-- **Streamlit**: An open-source app framework for Machine Learning and Data Science projects, used here to create a seamless, interactive web app.
-- **Polars**: A blazingly fast DataFrames library implemented in Rust, used for efficient data manipulation.
+- **Python**: The backbone of our project, Python is utilized for developing the application logic and data analysis scripts. Its extensive ecosystem of libraries makes it an ideal choice for data science and web development.
+- **Streamlit**: An innovative open-source framework that simplifies the process of building interactive and elegant web applications for Machine Learning and Data Science projects. Streamlit has been instrumental in creating a user-friendly interface for our analytics tool.
+- **Polars**: This cutting-edge DataFrames library, written in Rust, provides lightning-fast data manipulation and analysis capabilities. Polars is the engine behind our efficient data processing, enabling real-time insights even with large datasets.
+- **Plotly**: A comprehensive graphing library that allows us to create interactive, publication-quality graphs and visualizations directly from Python. Plotly enhances our application by offering dynamic, engaging, and responsive visualizations, making data exploration intuitive and insightful.
+- **DuckDB**: An in-process SQL OLAP database management system that excels in fast analytical queries directly on dataframes, making it a perfect complement to Polars for advanced data analysis. DuckDB helps in managing complex queries and aggregations efficiently, ensuring our application remains swift and responsive even with intricate data analysis tasks.
+
 
 ## Getting Started
 
@@ -69,7 +73,7 @@ Ensure you have Python installed on your system. You can download Python [here](
 With the dependencies installed, you can now run the application using Streamlit:
 
 ```bash
-streamlit run App.py
+streamlit run mainpage.py
 ```
 
 Navigate to the local web address provided in the terminal to interact with the Country Inflation Analytics application.
