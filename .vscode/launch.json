@@ -5,7 +5,7 @@
             "name": "Python: Streamlit",
             "type": "debugpy",
             "request": "launch",
-            "args": ["run", "mainpage.py"],
+            "args": ["run", "🏠_Main_Page.py"],
             "module": "streamlit",
         }
     ]
