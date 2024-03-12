@@ -37,4 +37,5 @@ fig.update_layout(
 left_col, center_col, right_col = st.columns([0.01 , 6, 0.01])
 with center_col: 
     st.plotly_chart(fig, use_container_width=True)
+    st.table(result)
 
