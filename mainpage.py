@@ -8,7 +8,7 @@ import duckdb
 st.set_page_config(
     page_title="Global Infaltion Analytics Project",
     page_icon=":bar_chart:",
-    layout="wide",
+    layout="centered",
     initial_sidebar_state="auto",
 )
 
@@ -27,6 +27,12 @@ selected_country = st.selectbox("Select a country", country_list.unique().sort()
 result = duckdb.sql(f"SELECT country_name, year, inflation FROM df_melted WHERE country_name = '{selected_country}' AND inflation IS NOT NULL ").to_df()
 
 fig = px.line(result, x="year", y="inflation", title=f"Inflation in {selected_country}")
+fig.update_layout(
+    dragmode='pan'
+)
 
-st.plotly_chart(fig)
+left_col, center_col, right_col = st.columns([0.01 , 6, 0.01])
+
+with center_col: 
+    st.plotly_chart(fig, use_container_width=True)
 
