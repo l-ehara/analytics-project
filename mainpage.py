@@ -9,7 +9,7 @@ st.set_page_config(
     page_title="Global Infaltion Analytics Project",
     page_icon=":bar_chart:",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="auto",
 )
 
 df = pl.read_csv("global_inflation_data.csv", try_parse_dates=True)
@@ -25,9 +25,6 @@ selected_country = st.selectbox("Select a country", country_list.unique().sort()
 
 
 result = duckdb.sql(f"SELECT country_name, year, inflation FROM df_melted WHERE country_name = '{selected_country}' AND inflation IS NOT NULL ").to_df()
-
-px.defaults.width = 1000
-px.defaults.height = 600
 
 fig = px.line(result, x="year", y="inflation", title=f"Inflation in {selected_country}")
 
