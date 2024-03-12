@@ -87,5 +87,7 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 - Data sources: You can find more informations about the Data source [here](https://www.kaggle.com/datasets/sazidthe1/global-inflation-data)
 - Streamlit Community: You can find more information about Streamlit [here](https://streamlit.io/)
 - Polars Documentation: You can find more information about Polars [here](https://pola.rs/)
+- DuckDB: You cand find more information about DuckDB [here](https://duckdb.org/)
+- Plotly: You can find more information about Plotly [here](https://plotly.com/)
 
 Thank you for visiting the my project. Dive into the data and uncover the stories behind inflation rates across the globe!
