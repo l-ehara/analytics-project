@@ -1,4 +1,5 @@
 # Country Inflation Analytics
+### Available [here](https://analytics-project-globaleconmetrics.streamlit.app/) online!
 
 Welcome to the Country Inflation Analytics project! This interactive tool leverages historical data to visualize and analyze the inflation rates of various countries from 1980 to the present. Built with Python, Streamlit, and Polars, this application provides a user-friendly interface for exploring inflation trends and gaining insights into economic patterns over the decades.
 
@@ -8,8 +9,7 @@ Welcome to the Country Inflation Analytics project! This interactive tool levera
 - **Country-wise Analysis**: Drill down into each country's specific inflation data and trends over the years.
 - **Historical Data Insights**: Explore how inflation has evolved since 1980 for each country in the dataset.
 - **Data-Driven**: Powered by Polars, enjoy fast and efficient data manipulation and analysis.
-
-## Technologies
+- 
 ## Technologies
 
 - **Python**: The backbone of our project, Python is utilized for developing the application logic and data analysis scripts. Its extensive ecosystem of libraries makes it an ideal choice for data science and web development.
