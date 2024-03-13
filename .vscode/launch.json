@@ -1,12 +1,27 @@
 {
     "version": "0.2.0",
     "configurations": [
+                {
+                    "name": "Python: Streamlit",
+                    "type": "debugpy",
+                    "request": "launch",
+                    "args": ["run", "🏠_Main_Page.py"],
+                    "module": "streamlit",
+                    "console": "integratedTerminal"
+                },
+                {
+                    "name": "Python: Uvicorn",
+                    "type": "debugpy",
+                    "request": "launch",
+                    "module": "uvicorn",
+                    "args": ["routers.global_gdp:app", "--reload"],
+                    "console": "integratedTerminal"
+                }
+            ],
+    "compounds": [
         {
-            "name": "Python: Streamlit",
-            "type": "debugpy",
-            "request": "launch",
-            "args": ["run", "🏠_Main_Page.py"],
-            "module": "streamlit",
+            "name": "Run Streamlit and Uvicorn",
+            "configurations": ["Python: Streamlit", "Python: Uvicorn"]
         }
     ]
 }
