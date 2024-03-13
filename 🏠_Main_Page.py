@@ -21,7 +21,7 @@ st.write("##### This project was made for my personal studies and to practice my
 df_melted = df.melt(id_vars=["country_name"], variable_name="year", value_name="inflation")
 
 country_list = df_melted["country_name"]
-selected_country = st.selectbox("Select a country", country_list.unique().sort())
+selected_country = st.selectbox("Select a country", country_list.unique().sort(), index = 24)
 
 query_file_path = 'sql/inflation_by_country_by_period.sql'  
 with open(query_file_path, 'r') as file:
@@ -38,4 +38,3 @@ left_col, center_col, right_col = st.columns([0.01 , 6, 0.01])
 with center_col: 
     st.plotly_chart(fig, use_container_width=True)
     st.table(result)
-
