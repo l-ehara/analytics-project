@@ -10,7 +10,7 @@ left_col, center_col, right_col = st.columns([0.01 , 10, 0.01])
 
 st.title("""Hello! :wave:""")
 
-st.write("""Hello! I'm currently a 6th semester software engineering student and have always had a deep passion for software development. 
+st.write("""Hello! I'm currently a 8th semester software engineering student and have always had a deep passion for software development. 
 The journey of coding, creating, and watching a simple concept grow into a complex program truly captivates me. 
 I have an insatiable curiosity for learning, constantly seeking to expand my skills and knowledge in various programming languages, 
 software systems, and innovative technologies.
